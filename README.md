@@ -14,13 +14,13 @@ optimizations.
 Installation
 ============
 
-    npm install base58-native
+    npm install @mtl1979/base58-native
 
 Usage
 =====
 
-    var base58 = require('base58-native');
+    var base58 = require('@mtl1979/base58-native');
     base58.encode(base58.decode('mqqa8xSMVDyf9QxihGnPtap6Mh6qemUkcu'));
 
-    var base58Check = require('base58-native').base58Check;
+    var base58Check = require('@mtl1979/base58-native').base58Check;
     base58Check.encode(base58Check.decode('mqqa8xSMVDyf9QxihGnPtap6Mh6qemUkcu'));
